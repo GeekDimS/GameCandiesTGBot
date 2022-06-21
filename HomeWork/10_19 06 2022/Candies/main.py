@@ -2,7 +2,7 @@ from telegram import Update, Bot, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Updater, CommandHandler, Filters, MessageHandler, ConversationHandler
 from TASK import *
 
-path_file_token = 'C:\oken.txt'    # Считывает токен Телеграм-бота из текстового файла
+path_file_token = 'C://token.txt'    # Считывает токен Телеграм-бота из текстового файла
 with open(path_file_token, 'r') as data:
     for line in data:
         str_token = line
